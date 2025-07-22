@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Australia Postcode Map</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"/>
+</head>
+<body>
+  <div id="controls">
+    <h1>Australian Postcode Map</h1>
+    <input type="text" id="postcodeInput" placeholder="Enter postcodes (e.g. 2000,3000)" list="postcodeList" />
+    <datalist id="postcodeList"></datalist>
+    <br/>
+    <label><input type="radio" name="colorMode" value="same" checked /> Same Color</label>
+    <label><input type="radio" name="colorMode" value="different" /> Different Colors</label>
+    <br/>
+    <button onclick="searchPostcodes()">Search</button>
+    <button onclick="downloadCSV()">Export CSV</button>
+    <div id="legend"></div>
+  </div>
+  <div id="map"></div>
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>

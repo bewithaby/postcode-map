@@ -1,0 +1,17 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "postcode": "2000",
+        "suburb": "Sydney",
+        "region": "New South Wales"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[151.2,-33.87],[151.21,-33.87],[151.21,-33.86],[151.2,-33.86],[151.2,-33.87]]]
+      }
+    }
+  ]
+}

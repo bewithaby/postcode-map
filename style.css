@@ -1,0 +1,27 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+#controls {
+  padding: 1em;
+  background: #f0f0f0;
+  text-align: center;
+}
+
+#map {
+  height: 90vh;
+}
+
+.leaflet-tooltip {
+  background-color: rgba(0, 0, 0, 0.75);
+  color: #fff;
+  border-radius: 4px;
+  padding: 2px 6px;
+  font-size: 12px;
+}
+
+#legend {
+  margin-top: 1em;
+  font-size: 14px;
+}
